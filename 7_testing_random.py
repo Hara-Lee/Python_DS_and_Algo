@@ -1,4 +1,8 @@
 import random
+<<<<<<< HEAD
+=======
+
+>>>>>>> 58ffa745122b01cb5c9484e443a40ea5a3ddd269
 def testing_random():
     """ random 모듈 테스트 """
     values = [1, 2, 3, 4]

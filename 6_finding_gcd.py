@@ -1,10 +1,21 @@
+<<<<<<< HEAD
 # 유클리드 호제법을 사용한 최대공약수 찾기
+=======
+# 유클리드 호제법을 사용한 방법
+# 최대공약수를 구하는 함수를 gcd(a,b)라고 할 때,
+# a mod b = 0 이라면, gcd(a,b) = b임이 성립
+# a mod b != 0 이라면, gcd(a,b) = gcd(b, a mod b) 임이 성립
+ 
+>>>>>>> 58ffa745122b01cb5c9484e443a40ea5a3ddd269
 def finding_gcd(a, b):
     while(b != 0):
         result = b
         a, b = b, a % b
     return result
+<<<<<<< HEAD
 
+=======
+>>>>>>> 58ffa745122b01cb5c9484e443a40ea5a3ddd269
 def test_finding_gcd():
     number1 = 21
     number2 = 12
